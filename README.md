@@ -70,7 +70,7 @@ Pentru urmarirea atenta a pasilor propun visualizarea main.c de unde reiese cont
 	g = creare_graf();
 
 
-## Functii importante, idei;
+## 1. Functii importante, idei;
 📄 Fișier: `functions_1.c`
 
 
@@ -159,7 +159,7 @@ else
 - Transformările (cum ar fi conversia la majuscule sau transformarea numelor) sunt realizate direct în pasul de parsare, nu într-un pas ulterior.
 - Această abordare de parsare, deși implică un efort manual mai mare, oferă o precizie și un control superior față de metodele standard, fiind potrivită pentru scenarii în care formatul de intrare este rigid, dar nu standardizat complet.
 
-## funcția `deletenod()`
+## 2. funcția `deletenod()`
 📄 Fișier: `functions_3.c`
 ```c
     frunza *deletenod(frunza *root, float key, int data)
