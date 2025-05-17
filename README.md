@@ -1,4 +1,4 @@
-# Proiect C - Prelucrarea Candidaților
+# Tema Proiectarea Algoritmilor
 
 ## Descriere
 
