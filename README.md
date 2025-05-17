@@ -193,7 +193,7 @@ typedef struct numascii
 
 Alexandru Dinu – Proiect realizat în cadrul disciplinei PA, 2025.
 ## Bibliografie
-Curs Proiectarea Algoritmilor
-gitHub.com
-stackoverflow.com
+1. Curs Proiectarea Algoritmilor
+2. gitHub.com
+3. stackoverflow.com
 
