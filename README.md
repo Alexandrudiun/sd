@@ -178,7 +178,7 @@ Returnează un pointer către rădăcina BST după finalizarea ștergerii.
 ---
 ## pas7()
 La pasul 7 am incercat sa gasesc o solutie care sa nu necesite o matrice pentru sortatea traseelor in ordine lexicografica. 
-Structura sta la baza uneia dintre strategiile mele:
+Prin intermediul structurii de mai jos imi propuneam sa stochez fiecare caracter cu dubla sa valoarea de integer/ascii. Strategia functioneaza pana la numere de maxim 2 caractere.
 ```c
 
 typedef struct numascii
@@ -187,7 +187,6 @@ typedef struct numascii
      int ascii;
  } ascii_obj;
 ```
-Prin intermediul ei imi propuneam sa stochez fiecare caracter cu dubla sa valoarea de integer/ascii. Strategia functioneaza pana la numere de maxim 2 caractere.
 ---
 
 ## Autor
