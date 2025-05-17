@@ -6,7 +6,7 @@ Acest proiect scris în limbajul C implementează o aplicație modulară pentru 
 
 Proiectul este împărțit pe pași succesivi, fiecare reprezentând o fază logică a prelucrării. 
 
-De menționat: Deși am explorat idei nice, cum ar fi criptarea traseelor în pasul 7, acestea au fost abandonate pentru a menține coerența și simplitatea. De asemenea, din considerente de logice, am ales să nu eliberez memoria între pași, desi am avut niste tenative de a o face. Din cauza reutilizarii structurilor, si a costului prea mare de rezolvare a memory leak-urilor imi asum penalizarea. Totodata, tin sa mentionez ca am incercat sa aleg mereu solutii optime pentru fiecare task unde mai mereu am luat in considerare complexitatea algoritmilor raportati la datele de intrare.
+Deși am explorat idei nice, cum ar fi criptarea traseelor în pasul 7, acestea au fost abandonate pentru a menține coerența și simplitatea. De asemenea, din considerente de logice, am ales să nu eliberez memoria între pași, desi am avut niste tenative de a o face. Din cauza reutilizarii structurilor, si a costului prea mare de rezolvare a memory leak-urilor imi asum penalizarea. Totodata, tin sa mentionez ca am ales solutii optime pentru fiecare task unde mai mereu am luat in considerare complexitatea algoritmilor raportati la datele de intrare.
 
 ---
 
@@ -15,11 +15,11 @@ De menționat: Deși am explorat idei nice, cum ar fi criptarea traseelor în pa
 - `main.c` – punctul de intrare, apelează pașii în ordine
 - `functions_1.c` – procesarea inițială a datelor din fișier CSV
 - `functions_2.c` – separarea candidaților în două categorii
-- `functions_3.c` – filtrare și prelucrare a unei categorii
-- `functions_4.c` – asociere a candidaților cu trasee și construcția unui heap
-- `functions_5.c` – sortare și extragere de top candidați
-- `functions_6.c` – calculul experienței totale și afișare finală
-- `functions_7.c` – (inițial criptare ASCII, apoi ignorat)
+- `functions_3.c` – filtrare și prelucrare a Lorzilor
+- `functions_4.c` – asocierea candidaților cu trasee in heap
+- `functions_5.c` – calculul experientei totale si reasezarea heap-ului
+- `functions_6.c` – afisare top 3
+- `functions_7.c` – generarea traseelor
 - `modells.h` – definirea structurilor de date
 - `C_modules.h` – antete pentru funcțiile utilizate
 
