@@ -164,14 +164,14 @@ else
 ```c
     frunza *deletenod(frunza *root, float key, int data)
 ```
-# Descriere
+### Descriere
 Această funcție implementează un algoritm de ștergere a arborelui binar de căutare cu un pas suplimentar de verificare a datelor. Elimină un nod cu o valoare specifică a experienței (key) și o sumă de control a datelor din arbore, menținând în același timp proprietatea BST.
 
 root: Pointer către nodul curent din BST.
 key: Valoarea experienței (valoare_xp_float) de căutat și șters.
 data: O valoare a sumei de control generată din numele, vârsta și starea nodului pentru a verifica dacă nodul corect este șters.
 
-# Valoare returnată
+### Valoare returnată
 
 Returnează un pointer către rădăcina BST după finalizarea ștergerii.
 
