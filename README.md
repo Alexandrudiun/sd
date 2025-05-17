@@ -70,11 +70,11 @@ Pentru urmarirea atenta a pasilor propun visualizarea main.c de unde reiese cont
 	g = creare_graf();
 
 
-##Functii importante, idei;
+## Functii importante, idei;
 📄 Fișier: `functions_1.c`
 
 
-##funcția `pas1()`
+## funcția `pas1()`
 
 - Deschide fișierul `./Pas_1/candidati.csv` pentru citire și fișierul `./Pas_1/test_1.csv` pentru scriere.
 - Sare peste antetul CSV (`fgets()` inițial).
