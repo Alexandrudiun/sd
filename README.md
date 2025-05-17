@@ -71,7 +71,7 @@ Pentru urmarirea atenta a pasilor propun visualizarea main.c de unde reiese cont
 
 
 ## 1. Functii importante, idei;
-📄 Fișier: `functions_1.c`
+Fișier: `functions_1.c`
 
 
 ## funcția `pas1()`
@@ -138,7 +138,7 @@ float xpF = atof(xp);
 
 ---
 
-## 📦 Crearea structurii de date
+## Crearea structurii de date
 
 - După parsare, fiecare candidat este adăugat într-o coadă folosind `adaugare_la_Coada()`.
 - În cadrul acestei funcții, statutul social este convertit într-o valoare numerică (`enum`):
@@ -154,13 +154,13 @@ else
 
 ---
 
-## 🧾 Observații 
+## Observații 
 - Parsarea este robustă și bine controlată.
 - Transformările (cum ar fi conversia la majuscule sau transformarea numelor) sunt realizate direct în pasul de parsare, nu într-un pas ulterior.
 - Această abordare de parsare, deși implică un efort manual mai mare, oferă o precizie și un control superior față de metodele standard, fiind potrivită pentru scenarii în care formatul de intrare este rigid, dar nu standardizat complet.
 
 ## 2. funcția `deletenod()`
-📄 Fișier: `functions_3.c`
+Fișier: `functions_3.c`
 ```c
     frunza *deletenod(frunza *root, float key, int data)
 ```
