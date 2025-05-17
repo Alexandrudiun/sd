@@ -159,7 +159,7 @@ else
 - Transformările (cum ar fi conversia la majuscule sau transformarea numelor) sunt realizate direct în pasul de parsare, nu într-un pas ulterior.
 - Această abordare de parsare, deși implică un efort manual mai mare, oferă o precizie și un control superior față de metodele standard, fiind potrivită pentru scenarii în care formatul de intrare este rigid, dar nu standardizat complet.
 
-
+## funcția `deletenod()`
 📄 Fișier: `functions_3.c`
 ```c
     frunza *deletenod(frunza *root, float key, int data)
